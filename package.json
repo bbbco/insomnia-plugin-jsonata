@@ -1,0 +1,32 @@
+{
+  "name": "insomnia-plugin-jsonata",
+  "version": "0.0.1",
+  "description": "Insomnia REST client plugin template tag to pull data from JSON strings using the JSONata library",
+  "insomnia": {
+    "name": "jsonata",
+    "description": "Insomnia REST client plugin template tag to pull data from JSON strings using the JSONata library"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bbbco/insomnia-plugin-jsonata.git"
+  },
+  "main": "main.js",
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "custom",
+    "jsonata",
+    "json",
+    "jsonpath",
+    "jq"
+  ],
+  "author": "bbbco",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bbbco/insomnia-plugin-jsonata/issues"
+  },
+  "homepage": "https://github.com/bbbco/insomnia-plugin-jsonata#readme",
+  "dependencies": {
+    "jsonata": "^1.8.6"
+  }
+}
