@@ -11,7 +11,9 @@ This plugin uses the community-driven [JSONata NPM library](https://www.npmjs.co
 You can refer to [the docs](http://docs.jsonata.org/overview.html) for information on writing a JSONata query filter. It's pretty straightforward:
 
 `$` as the root object
+
 `.` notation for retrieving nested objects
+
 `[]` filter by index or subquery
 
 To emulate the examples that Insomnia provides regarding a hypothetical book store API:
