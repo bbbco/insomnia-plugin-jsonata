@@ -20,19 +20,19 @@ To emulate the examples that Insomnia provides regarding a hypothetical book sto
 
 | JSONata Query Filter | Action |
 |----------------------|--------|
-| \$.store.books.title  | Get titles of all books in the store |
-| \$.store.books[price < 10].title | Get titles of books costing less than $10 |
-| \$.store.books[-1]   | Get the last book in the store |
-| \$count($.store.books) | Get the number of books in the store
-| \$.store.books[$match(title, /lord.*rings/)] | Get book by title regular expression
+| `$.store.books.title`  | Get titles of all books in the store |
+| `$.store.books[price < 10].title` | Get titles of books costing less than $10 |
+| `$.store.books[-1]`   | Get the last book in the store |
+| `$count($.store.books)` | Get the number of books in the store
+| `$.store.books[$match(title, /lord.*rings/)]` | Get book by title regular expression
 
 Further querying and manipulation can be done with `JSONata`, as is shown in these examples from a hypothetical book store:
 
 | JSONata Query Filter | Action |
 |----------------------|--------|
-| \$sum($.store.cart.products.(price * quantity)) | Calculate the total sum of the products in the shopping cart |
-| \$.store ~> $keys() | Retrieve all of the object keys inside the `store` object
-| \$.store.books.{ "title": title, "price": price } | Get all books and only return their titles and prices
+| `$sum($.store.cart.products.(price * quantity))` | Calculate the total sum of the products in the shopping cart |
+| `$.store ~> $keys()` | Retrieve all of the object keys inside the `store` object
+| `$.store.books.{ "title": title, "price": price }` | Get all books and only return their titles and prices
 
 ## Installation
 
